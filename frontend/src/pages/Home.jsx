@@ -1,7 +1,8 @@
+import Hero from '../components/Hero'
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to Home Page</h1> {/* Test if Home page renders */}
+     <Hero />
     </div>
   );
 };
