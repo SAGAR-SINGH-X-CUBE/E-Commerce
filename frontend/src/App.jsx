@@ -10,6 +10,7 @@ import Login from './pages/Login'
 import Orders from './pages/Orders'
 import Product from './pages/Product'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
 
 
       </Routes>
+      <Footer/>
       
     </div>
   )
