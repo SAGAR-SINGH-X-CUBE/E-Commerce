@@ -11,6 +11,7 @@ import Orders from './pages/Orders'
 import Product from './pages/Product'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import SearchBar from './components/SearchBar'
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
 
     
       <Navbar />
-     
+     <SearchBar/>
 
       <Routes>
         <Route path='/' element={<Home/>} />
